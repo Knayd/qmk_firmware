@@ -25,6 +25,14 @@
 #    define DRIVER_1_LED_COUNT 46
 #    define DRIVER_2_LED_COUNT 38
 #    define RGB_MATRIX_LED_COUNT (DRIVER_1_LED_COUNT + DRIVER_2_LED_COUNT)
+#    define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#    define TAPPING_TERM 200
+#    define MOUSEKEY_INTERVAL 12
+#    define MOUSEKEY_MAX_SPEED 5
+#    define MOUSEKEY_TIME_TO_MAX 60
+#    define MOUSEKEY_DELAY 0
+#    define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+// #    define TAPPING_TOGGLE 2
 
 /* Set to infinit, which is use in USB mode by default */
 #    define RGB_MATRIX_TIMEOUT RGB_MATRIX_TIMEOUT_INFINITE
