@@ -42,6 +42,8 @@
 /* Turn off backlight on low brightness to save power */
 #    define RGB_MATRIX_BRIGHTNESS_TURN_OFF_VAL 48
 
+#define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
+
 /* Caps lock indicating led */
 #    define DIM_CAPS_LOCK
 #    define CAPS_LOCK_INDEX 46
